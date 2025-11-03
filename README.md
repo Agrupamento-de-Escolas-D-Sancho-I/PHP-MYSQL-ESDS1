@@ -10,8 +10,3 @@ sudo sed -i 's/<VirtualHost *:80>/ServerName 127.0.0.1\n<VirtualHost *:8080>/' /
 
 apache2ctl start
 
-
-# Correr a applicação React
-cd react-intro
-npm run dev
-
